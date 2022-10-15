@@ -3,7 +3,7 @@ In this project, we will work on a dataset that have different information about
 
 ## List of Datasets
 - Dataset-01
-Drug consumption (quantified) Data Set
-Description :
+Drug consumption (quantified) 
+Data Set Description :
 
 Source : https://archive.ics.uci.edu/ml/datasets/Drug+consumption+%28quantified%29
