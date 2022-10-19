@@ -8,6 +8,9 @@ Data Set Description :
 
 Source : https://archive.ics.uci.edu/ml/datasets/Drug+consumption+%28quantified%29
 
+Drug Consumption is a collection of 1885 responses containing 32 variables. The main goal of this dataset is the Five-Factor Model of personality and evaluation of drug consumption risks. Furthermore, this dataset has demographic information about each respondent. Such as age, gender, education, country, and ethnicity. As mentioned this dataset has personality attributes of drug users. These measures are as follows: neuroticism, extraversion, openness to experience, agreeableness, conscientiousness, impulsivity, and sensation seeking. Moreover, participants responded regarding the usage of 18 legal and illegal drugs. The link to the dataset can be found here. The dataset is collected by Khushnur.
+
+
 - Dataset-02 :
 
 National Survey on Drug Use and Health (NSDUH) 
@@ -16,3 +19,9 @@ Data Set Description : National Survey on Drug Use and Health (NSDUH) is a leadi
 - Dataset-03 :
 
 Substance abuse and mental health archive (SAMHDA) collects data through multiple sources and surveys. SAMHDA goal is to provide access to public-use data files and documentation to support a better understanding of substance use disorders and mental health in United States. SAMHDA contains data for all the USA states from 2015 to 2020. This data archive has detailed information on alcohol, Tobacco, Marijuana and other drugs. The benefit of this dataset is it provides a general overview of drug consumption across the United States. The datasets can be downloaded from SAMHDA archives. The dataset is collected by Ghazal. The link to the dataset can be found [here](https://pdas.samhsa.gov/saes/state)
+
+
+- Dataset-04 :
+
+The fourth dataset is smoking, alcohol consumption, and use of illicit drugs which is available on the website of Our World in Data. This is multi-table source provides information on the topic for all the world's countries. The first table covers data on the deaths from Tobacco, alcohol, and drug across all countries from 1990 to 2019. The second table contains a share of the population that has alcohol or illicit drug use disorders. The third table is the gender ratio with alcohol or drug use disorders and the last table is deaths from drugs or illicit drugs across different age groups in the world. The data tables from Our World in Data can be found here. The dataset is found by Khushnur.
+ 
