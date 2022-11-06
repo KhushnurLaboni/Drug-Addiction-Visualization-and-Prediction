@@ -17,13 +17,13 @@ drug_consumtion <- as.data.table(drug_consumtion)
 drug_consumtion <- drug_consumtion[drug_consumtion$Country != "Other", ]
 drug_consumtion$iso3 <- countrycode(drug_consumtion$Country, "country.name", "iso3c")
 
-drug_consumtion[drug_consumtion=="CL0"]=0
-drug_consumtion[drug_consumtion=="CL1"]=1
-drug_consumtion[drug_consumtion=="CL2"]=2
-drug_consumtion[drug_consumtion=="CL3"]=3
-drug_consumtion[drug_consumtion=="CL4"]=4
-drug_consumtion[drug_consumtion=="CL5"]=5
-drug_consumtion[drug_consumtion=="CL6"]=6
+drug_consumtion[drug_consumtion=="CL0"]="Never Used"
+drug_consumtion[drug_consumtion=="CL1"]="Used over a Decade Ago"
+drug_consumtion[drug_consumtion=="CL2"]="Used in Last Decade"
+drug_consumtion[drug_consumtion=="CL3"]="Used in Last Year"
+drug_consumtion[drug_consumtion=="CL4"]="Used in Last Month"
+drug_consumtion[drug_consumtion=="CL5"]="Used in Last Week"
+drug_consumtion[drug_consumtion=="CL6"]="Used in Last Week"
 
 
 
